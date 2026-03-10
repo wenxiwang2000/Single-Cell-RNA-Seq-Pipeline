@@ -1,6 +1,7 @@
 ## 🪲 Beetle scRNA-seq Tissue Annotation Pipeline
 
 This repository provides a reproducible single-cell RNA-seq analysis pipeline designed for **beetle tissue annotation using a Drosophila mitochondrial proxy strategy**. The workflow processes Cell Ranger `filtered_feature_bc_matrix` outputs using **Scanpy**, with an optional **Streamlit interface** that serves only as a clean parameter input and visualization layer. All computational analysis is executed in the backend Python pipeline to ensure full reproducibility, stability, and independence from UI state. ⚙️📊
+
 <img width="461" height="286" alt="image" src="https://github.com/user-attachments/assets/8b19a508-7d34-4ef0-9c67-39731a49257b" />
 
 A key feature of this workflow is a **mitochondrial proxy filtering strategy**. Because canonical mitochondrial gene annotations are incomplete in many beetle genomes, we use **Drosophila mitochondrial gene sets as a reference**. These genes are mapped to beetle homologs using **BLAST**, allowing identification of corresponding **TCxxxx genes** in the beetle genome. Tissue-specific expression patterns are then compared across both species to determine which beetle tissues carry these mitochondrial proxy genes. This enables robust identification and removal of low-quality or stressed cells through a biologically informed **mt-proxy filtering step**. 🧬🧪🪰➡️🪲
