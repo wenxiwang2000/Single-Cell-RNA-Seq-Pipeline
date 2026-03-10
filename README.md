@@ -116,9 +116,6 @@ This enables analysis of **developmental stages**, **experimental conditions**, 
 
 After analysis, the pipeline produces:
 
-<img width="461" height="286" alt="image" src="https://github.com/user-attachments/assets/8b19a508-7d34-4ef0-9c67-39731a49257b" />
-
-
 <img width="1074" height="714" alt="image" src="https://github.com/user-attachments/assets/60459f09-e10e-4b2c-9715-565731339394" />
 
 
